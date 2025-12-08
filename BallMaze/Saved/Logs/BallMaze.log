@@ -1153,3 +1153,923 @@ LogConfig: CVar [[D3D12.Bindless.ResourceDescriptorHeapSize:32768]] deferred - d
 [2025.12.08-16.12.01:031][  9]LogEOSSDK: LogEOS: SDK Config Product Update Request Successful, Time: 4.574614
 [2025.12.08-16.12.01:033][  9]LogEOSSDK: LogEOS: SDK Config Data - Watermark: 1164040915
 [2025.12.08-16.12.01:033][  9]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4.574614, Update Interval: 320.187988
+[2025.12.08-16.13.52:131][648]LogDerivedDataCache: C:/Users/antho/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.12.08-16.14.29:249][432]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.12.08-16.14.44:675][280]LogStreaming: Display: FlushAsyncLoading(474): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.08-16.14.44:713][280]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_5.6/FeaturePacks/StarterContent.upack)
+[2025.12.08-16.14.44:716][280]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2025.12.08-16.14.44:717][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2025.12.08-16.14.44:718][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2025.12.08-16.14.44:719][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2025.12.08-16.14.44:719][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2025.12.08-16.14.44:720][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2025.12.08-16.14.44:720][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2025.12.08-16.14.44:721][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2025.12.08-16.14.44:721][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2025.12.08-16.14.44:722][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2025.12.08-16.14.44:722][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2025.12.08-16.14.44:723][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2025.12.08-16.14.44:723][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2025.12.08-16.14.44:724][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2025.12.08-16.14.44:725][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2025.12.08-16.14.44:725][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2025.12.08-16.14.44:726][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2025.12.08-16.14.44:726][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2025.12.08-16.14.44:727][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2025.12.08-16.14.44:727][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2025.12.08-16.14.44:728][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2025.12.08-16.14.44:729][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2025.12.08-16.14.44:730][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Maps/Minimal_Default.umap"
+[2025.12.08-16.14.44:731][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2025.12.08-16.14.44:732][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Maps/StarterMap.umap"
+[2025.12.08-16.14.44:743][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2025.12.08-16.14.44:773][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2025.12.08-16.14.44:774][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2025.12.08-16.14.44:775][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Particles/P_Explosion.uasset"
+[2025.12.08-16.14.44:775][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Particles/P_Fire.uasset"
+[2025.12.08-16.14.44:776][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Particles/P_Smoke.uasset"
+[2025.12.08-16.14.44:777][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Particles/P_Sparks.uasset"
+[2025.12.08-16.14.44:777][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2025.12.08-16.14.44:782][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2025.12.08-16.14.44:786][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2025.12.08-16.14.44:791][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2025.12.08-16.14.44:795][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2025.12.08-16.14.44:800][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2025.12.08-16.14.44:804][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2025.12.08-16.14.44:810][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2025.12.08-16.14.44:815][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2025.12.08-16.14.44:821][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2025.12.08-16.14.44:825][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2025.12.08-16.14.44:829][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2025.12.08-16.14.44:834][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2025.12.08-16.14.44:838][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2025.12.08-16.14.44:839][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2025.12.08-16.14.44:840][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2025.12.08-16.14.44:841][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2025.12.08-16.14.44:842][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2025.12.08-16.14.44:842][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2025.12.08-16.14.44:843][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2025.12.08-16.14.44:845][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2025.12.08-16.14.44:846][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2025.12.08-16.14.44:851][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2025.12.08-16.14.44:853][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2025.12.08-16.14.44:858][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2025.12.08-16.14.44:862][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2025.12.08-16.14.44:862][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2025.12.08-16.14.44:863][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2025.12.08-16.14.44:864][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2025.12.08-16.14.44:864][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2025.12.08-16.14.44:865][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2025.12.08-16.14.44:866][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2025.12.08-16.14.44:866][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2025.12.08-16.14.44:867][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2025.12.08-16.14.44:867][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2025.12.08-16.14.44:867][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2025.12.08-16.14.44:869][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2025.12.08-16.14.44:870][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2025.12.08-16.14.44:870][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2025.12.08-16.14.44:871][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2025.12.08-16.14.44:871][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2025.12.08-16.14.44:872][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2025.12.08-16.14.44:872][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2025.12.08-16.14.44:873][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2025.12.08-16.14.44:873][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2025.12.08-16.14.44:874][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Props/MaterialSphere.uasset"
+[2025.12.08-16.14.44:875][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Props/SM_Bush.uasset"
+[2025.12.08-16.14.44:875][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Props/SM_Chair.uasset"
+[2025.12.08-16.14.44:876][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2025.12.08-16.14.44:876][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Props/SM_Couch.uasset"
+[2025.12.08-16.14.44:877][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Props/SM_Door.uasset"
+[2025.12.08-16.14.44:878][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2025.12.08-16.14.44:878][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2025.12.08-16.14.44:878][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2025.12.08-16.14.44:879][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2025.12.08-16.14.44:879][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2025.12.08-16.14.44:880][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2025.12.08-16.14.44:880][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Props/SM_Rock.uasset"
+[2025.12.08-16.14.44:881][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Props/SM_Shelf.uasset"
+[2025.12.08-16.14.44:882][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Props/SM_Stairs.uasset"
+[2025.12.08-16.14.44:882][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Props/SM_Statue.uasset"
+[2025.12.08-16.14.44:883][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Props/SM_TableRound.uasset"
+[2025.12.08-16.14.44:884][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2025.12.08-16.14.44:885][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Audio/Collapse01.uasset"
+[2025.12.08-16.14.44:886][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Audio/Collapse02.uasset"
+[2025.12.08-16.14.44:886][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2025.12.08-16.14.44:887][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Audio/Explosion01.uasset"
+[2025.12.08-16.14.44:887][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Audio/Explosion02.uasset"
+[2025.12.08-16.14.44:888][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2025.12.08-16.14.44:889][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Audio/Fire01.uasset"
+[2025.12.08-16.14.44:890][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2025.12.08-16.14.44:891][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2025.12.08-16.14.44:891][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2025.12.08-16.14.44:892][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Audio/Light01.uasset"
+[2025.12.08-16.14.44:892][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2025.12.08-16.14.44:893][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Audio/Light02.uasset"
+[2025.12.08-16.14.44:894][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2025.12.08-16.14.44:895][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Audio/Smoke01.uasset"
+[2025.12.08-16.14.44:895][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2025.12.08-16.14.44:896][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2025.12.08-16.14.44:898][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2025.12.08-16.14.44:902][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2025.12.08-16.14.44:903][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2025.12.08-16.14.44:905][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2025.12.08-16.14.44:906][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2025.12.08-16.14.44:907][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Audio/Steam01.uasset"
+[2025.12.08-16.14.44:907][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2025.12.08-16.14.44:910][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2025.12.08-16.14.44:914][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2025.12.08-16.14.44:918][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2025.12.08-16.14.44:922][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2025.12.08-16.14.44:927][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2025.12.08-16.14.44:931][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2025.12.08-16.14.44:935][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2025.12.08-16.14.44:942][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2025.12.08-16.14.44:947][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2025.12.08-16.14.44:951][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2025.12.08-16.14.44:954][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2025.12.08-16.14.44:958][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2025.12.08-16.14.44:959][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2025.12.08-16.14.44:961][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2025.12.08-16.14.44:962][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Door_M.uasset"
+[2025.12.08-16.14.44:963][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Door_N.uasset"
+[2025.12.08-16.14.44:964][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2025.12.08-16.14.44:966][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2025.12.08-16.14.44:967][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2025.12.08-16.14.44:968][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2025.12.08-16.14.44:969][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2025.12.08-16.14.44:970][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2025.12.08-16.14.44:971][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2025.12.08-16.14.44:977][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2025.12.08-16.14.44:982][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2025.12.08-16.14.44:988][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2025.12.08-16.14.44:989][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2025.12.08-16.14.44:990][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2025.12.08-16.14.44:990][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2025.12.08-16.14.44:991][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2025.12.08-16.14.44:991][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2025.12.08-16.14.44:992][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2025.12.08-16.14.44:993][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2025.12.08-16.14.44:993][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2025.12.08-16.14.44:994][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2025.12.08-16.14.44:994][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2025.12.08-16.14.44:995][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2025.12.08-16.14.44:996][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2025.12.08-16.14.44:996][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2025.12.08-16.14.44:997][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2025.12.08-16.14.44:997][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2025.12.08-16.14.44:998][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2025.12.08-16.14.44:998][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2025.12.08-16.14.44:999][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_Glass.uasset"
+[2025.12.08-16.14.44:999][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2025.12.08-16.14.45:000][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2025.12.08-16.14.45:001][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2025.12.08-16.14.45:001][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2025.12.08-16.14.45:002][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2025.12.08-16.14.45:002][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2025.12.08-16.14.45:002][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2025.12.08-16.14.45:003][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2025.12.08-16.14.45:004][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2025.12.08-16.14.45:004][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2025.12.08-16.14.45:005][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2025.12.08-16.14.45:005][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2025.12.08-16.14.45:006][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2025.12.08-16.14.45:006][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2025.12.08-16.14.45:007][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2025.12.08-16.14.45:007][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2025.12.08-16.14.45:007][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2025.12.08-16.14.45:008][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2025.12.08-16.14.45:008][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2025.12.08-16.14.45:009][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2025.12.08-16.14.45:010][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2025.12.08-16.14.45:010][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2025.12.08-16.14.45:011][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2025.12.08-16.14.45:011][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2025.12.08-16.14.45:012][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2025.12.08-16.14.45:016][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2025.12.08-16.14.45:023][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2025.12.08-16.14.45:027][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2025.12.08-16.14.45:028][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2025.12.08-16.14.45:030][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2025.12.08-16.14.45:035][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2025.12.08-16.14.45:041][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2025.12.08-16.14.45:045][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2025.12.08-16.14.45:050][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2025.12.08-16.14.45:052][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2025.12.08-16.14.45:057][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2025.12.08-16.14.45:061][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2025.12.08-16.14.45:063][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2025.12.08-16.14.45:066][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2025.12.08-16.14.45:071][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2025.12.08-16.14.45:073][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2025.12.08-16.14.45:076][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2025.12.08-16.14.45:081][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2025.12.08-16.14.45:086][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2025.12.08-16.14.45:088][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2025.12.08-16.14.45:094][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2025.12.08-16.14.45:099][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2025.12.08-16.14.45:105][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2025.12.08-16.14.45:110][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2025.12.08-16.14.45:115][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2025.12.08-16.14.45:116][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2025.12.08-16.14.45:117][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2025.12.08-16.14.45:118][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2025.12.08-16.14.45:120][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2025.12.08-16.14.45:121][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2025.12.08-16.14.45:122][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2025.12.08-16.14.45:122][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2025.12.08-16.14.45:123][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2025.12.08-16.14.45:124][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2025.12.08-16.14.45:126][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2025.12.08-16.14.45:126][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2025.12.08-16.14.45:127][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2025.12.08-16.14.45:127][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2025.12.08-16.14.45:128][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2025.12.08-16.14.45:129][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2025.12.08-16.14.45:131][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2025.12.08-16.14.45:133][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Water_M.uasset"
+[2025.12.08-16.14.45:134][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Water_N.uasset"
+[2025.12.08-16.14.45:137][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2025.12.08-16.14.45:141][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2025.12.08-16.14.45:143][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2025.12.08-16.14.45:147][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2025.12.08-16.14.45:149][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2025.12.08-16.14.45:155][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2025.12.08-16.14.45:157][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2025.12.08-16.14.45:161][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2025.12.08-16.14.45:164][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2025.12.08-16.14.45:165][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2025.12.08-16.14.45:165][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2025.12.08-16.14.45:166][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2025.12.08-16.14.45:167][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2025.12.08-16.14.45:168][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2025.12.08-16.14.45:168][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2025.12.08-16.14.45:169][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2025.12.08-16.14.45:169][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2025.12.08-16.14.45:170][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2025.12.08-16.14.45:171][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2025.12.08-16.14.45:171][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2025.12.08-16.14.45:172][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2025.12.08-16.14.45:172][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2025.12.08-16.14.45:173][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2025.12.08-16.14.45:173][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2025.12.08-16.14.45:174][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2025.12.08-16.14.45:174][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2025.12.08-16.14.45:175][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2025.12.08-16.14.45:176][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2025.12.08-16.14.45:176][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2025.12.08-16.14.45:177][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2025.12.08-16.14.45:178][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2025.12.08-16.14.45:178][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2025.12.08-16.14.45:179][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2025.12.08-16.14.45:179][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2025.12.08-16.14.45:180][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2025.12.08-16.14.45:180][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2025.12.08-16.14.45:181][280]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2025.12.08-16.14.45:185][280]LogStaticMesh: Display: Building static mesh Floor_400x400 (Required Memory Estimate: 0.026896 MB)...
+[2025.12.08-16.14.45:187][280]LogStaticMesh: Built static mesh [0.00s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2025.12.08-16.14.45:243][280]LogStaticMesh: Display: Building static mesh Floor_400x400 (Required Memory Estimate: 0.026896 MB)...
+[2025.12.08-16.14.45:243][280]LogStaticMesh: Built static mesh [0.00s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2025.12.08-16.14.45:299][280]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.08-16.14.45:355][280]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Architecture/Floor_400x400] ([1] browsable assets)...
+[2025.12.08-16.14.45:356][280]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2025.12.08-16.14.45:397][280]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400]
+[2025.12.08-16.14.45:397][280]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Architecture/Floor_400x400]
+[2025.12.08-16.14.45:403][280]LogSavePackage: Moving output files for package: /Game/StarterContent/Architecture/Floor_400x400
+[2025.12.08-16.14.45:403][280]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Saved/Floor_400x4001ABDB4D748E3B0DEEE01D29555979740.tmp' to '../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2025.12.08-16.14.45:414][280]LogFileHelpers: InternalPromptForCheckoutAndSave took 115.436 ms
+[2025.12.08-16.14.45:696][280]LogContentValidation: Display: Starting to validate 1 assets
+[2025.12.08-16.14.45:696][280]LogContentValidation: Enabled validators:
+[2025.12.08-16.14.45:696][280]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.08-16.14.45:696][280]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.08-16.14.45:696][280]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.08-16.14.45:696][280]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.08-16.14.45:697][280]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.08-16.14.45:697][280]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.08-16.14.45:697][280]AssetCheck: /Game/StarterContent/Architecture/Floor_400x400 Validating asset
+[2025.12.08-16.14.45:753][280]LogSlate: Took 0.000542 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.12.08-16.14.45:766][280]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Saved/SourceControl/UncontrolledChangelists.json
+[2025.12.08-16.14.50:179][792]LogSlate: Window 'Content Browser' being destroyed
+[2025.12.08-16.14.50:184][792]LogSlate: Window 'Content Browser' being destroyed
+[2025.12.08-16.14.55:429][418]LogSlate: Window 'Add Content to the Project' being destroyed
+[2025.12.08-16.14.59:044][849]LogShaderCompilers: Display: ================================================
+[2025.12.08-16.14.59:044][849]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.12.08-16.14.59:044][849]LogShaderCompilers: Display: Total job queries 2,565, among them cache hits 636 (24.80%), DDC hits 1,826 (71.19%), Duplicates 101 (3.94%)
+[2025.12.08-16.14.59:044][849]LogShaderCompilers: Display: Tracking 1,828 distinct input hashes that result in 1,141 distinct outputs (62.42%)
+[2025.12.08-16.14.59:044][849]LogShaderCompilers: Display: RAM used: 11.69 MiB of 1.60 GiB budget. Usage: 0.71%
+[2025.12.08-16.14.59:044][849]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.12.08-16.14.59:044][849]LogShaderCompilers: Display: Shaders Compiled: 2
+[2025.12.08-16.14.59:044][849]LogShaderCompilers: Display: Jobs assigned 2, completed 2 (100%)
+[2025.12.08-16.14.59:044][849]LogShaderCompilers: Display: Time job spent in pending queue: average 0.09 s, longest 0.09 s
+[2025.12.08-16.14.59:044][849]LogShaderCompilers: Display: Job execution time: average 0.67 s, max 0.82 s
+[2025.12.08-16.14.59:044][849]LogShaderCompilers: Display: Job life time (pending + execution): average 0.76 s, max 0.91
+[2025.12.08-16.14.59:044][849]LogShaderCompilers: Display: Shader code size: total 18.91 KiB, numShaders 2, average 9.455 KiB, min 7.746 KiB, max 11.164 KiB
+[2025.12.08-16.14.59:044][849]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.91 s
+[2025.12.08-16.14.59:044][849]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.12.08-16.14.59:044][849]LogShaderCompilers: Display: Jobs were issued in 2 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.12.08-16.14.59:044][849]LogShaderCompilers: Display: Average processing rate: 2.19 jobs/sec
+[2025.12.08-16.14.59:044][849]LogShaderCompilers: Display: Total thread time: 0.875 s
+[2025.12.08-16.14.59:044][849]LogShaderCompilers: Display: Total thread preprocess time: 24.463 s
+[2025.12.08-16.14.59:044][849]LogShaderCompilers: Display: Percentage time preprocessing: 2795.91%
+[2025.12.08-16.14.59:044][849]LogShaderCompilers: Display: Effective parallelization: 0.96 (times faster than compiling all shaders on one thread). Compare with number of workers: 10 - 0.095769
+[2025.12.08-16.14.59:044][849]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.12.08-16.14.59:044][849]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    1 times, average 0.57 sec, max 0.57 sec, min 0.57 sec)
+[2025.12.08-16.14.59:044][849]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.30 sec, max 0.30 sec, min 0.30 sec)
+[2025.12.08-16.14.59:044][849]LogShaderCompilers: Display:                     TVirtualTextureVSBaseColorNormalSpecular (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.12.08-16.14.59:044][849]LogShaderCompilers: Display:                    TVirtualTextureVSBaseColorNormalRoughness (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.12.08-16.14.59:044][849]LogShaderCompilers: Display:                                 TVirtualTexturePSWorldHeight (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.12.08-16.14.59:044][849]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.12.08-16.14.59:044][849]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 65.59% of total time (compiled    1 times, average 0.57 sec, max 0.57 sec, min 0.57 sec)
+[2025.12.08-16.14.59:044][849]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 34.41% of total time (compiled    1 times, average 0.30 sec, max 0.30 sec, min 0.30 sec)
+[2025.12.08-16.14.59:044][849]LogShaderCompilers: Display:                    TVirtualTextureVSBaseColorNormalRoughness - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.12.08-16.14.59:044][849]LogShaderCompilers: Display:                                 TVirtualTexturePSWorldHeight - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.12.08-16.14.59:044][849]LogShaderCompilers: Display:                                       TVirtualTextureVSMask4 - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.12.08-16.14.59:044][849]LogShaderCompilers: Display: === Material stats ===
+[2025.12.08-16.14.59:044][849]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.12.08-16.14.59:044][849]LogShaderCompilers: Display: Materials Translated:    143
+[2025.12.08-16.14.59:044][849]LogShaderCompilers: Display: Material Total Translate Time: 0.09 s
+[2025.12.08-16.14.59:044][849]LogShaderCompilers: Display: Material Translation Only: 0.03 s (28%)
+[2025.12.08-16.14.59:044][849]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.12.08-16.14.59:044][849]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.12.08-16.14.59:044][849]LogShaderCompilers: Display: ================================================
+[2025.12.08-16.15.02:383][236]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2025.12.08-16.15.09:096][ 17]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2025.12.08-16.17.21:198][844]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 324.771149
+[2025.12.08-16.17.21:348][862]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.08-16.17.21:348][863]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 324.912689, Update Interval: 352.118896
+[2025.12.08-16.22.42:486][341]Cmd: MODE GRID=0
+[2025.12.08-16.23.15:657][299]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 679.229431
+[2025.12.08-16.23.15:750][310]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.08-16.23.15:750][310]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 679.312805, Update Interval: 304.354370
+[2025.12.08-16.26.42:665][116]LogStreaming: Display: FlushAsyncLoading(503): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.08-16.26.44:730][116]LogSlate: Window 'New Level' being destroyed
+[2025.12.08-16.26.44:740][116]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.12.08-16.26.44:754][116]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2025.12.08-16.26.44:754][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.08-16.26.44:754][116]LogWorldPartition: UWorldPartition::Uninitialize : World = /Temp/Untitled_1.Untitled_1
+[2025.12.08-16.26.44:774][116]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.12.08-16.26.44:835][116]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2025.12.08-16.26.44:841][116]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_2'.
+[2025.12.08-16.26.44:841][116]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled_2
+[2025.12.08-16.26.44:851][116]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.12.08-16.26.44:869][116]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2025.12.08-16.26.44:869][116]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.12.08-16.26.44:870][116]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.14ms to complete.
+[2025.12.08-16.26.44:922][118]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.08-16.27.14:910][ 51]LogSlate: Window 'Save Level As' being destroyed
+[2025.12.08-16.27.14:987][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.12.08-16.27.14:994][ 51]LogSavePackage: Moving output files for package: /Game/MyStuff/Maps/Level1
+[2025.12.08-16.27.14:994][ 51]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Saved/Level16E26D3AF43BC3F75CA5218BF0C1A1520.tmp' to '../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/MyStuff/Maps/Level1.umap'
+[2025.12.08-16.27.15:015][ 51]LogFileHelpers: Saving map 'Level1' took 0.098
+[2025.12.08-16.27.15:015][ 51]Cmd: MAP LOAD FILE="../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/MyStuff/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.12.08-16.27.15:020][ 51]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.12.08-16.27.15:020][ 51]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.08-16.27.15:032][ 51]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.12.08-16.27.15:033][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2025.12.08-16.27.15:035][ 51]LogStreaming: Display: FlushAsyncLoading(506): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.08-16.27.15:037][ 51]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level1'.
+[2025.12.08-16.27.15:037][ 51]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.12.08-16.27.15:045][ 51]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.12.08-16.27.15:061][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2025.12.08-16.27.15:064][ 51]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.12.08-16.27.15:064][ 51]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.053ms to complete.
+[2025.12.08-16.27.15:103][ 51]LogContentValidation: Display: Starting to validate 1 assets
+[2025.12.08-16.27.15:103][ 51]LogContentValidation: Enabled validators:
+[2025.12.08-16.27.15:103][ 51]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.08-16.27.15:103][ 51]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.08-16.27.15:103][ 51]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.08-16.27.15:103][ 51]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.08-16.27.15:103][ 51]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.08-16.27.15:103][ 51]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.08-16.27.15:103][ 51]AssetCheck: /Game/MyStuff/Maps/Level1 Validating asset
+[2025.12.08-16.27.15:124][ 51]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Saved/SourceControl/UncontrolledChangelists.json
+[2025.12.08-16.27.15:132][ 53]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.08-16.28.27:540][713]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 991.111450
+[2025.12.08-16.28.27:616][722]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.08-16.28.27:616][722]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 991.179016, Update Interval: 346.061584
+[2025.12.08-16.29.01:659][794]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/MyStuff/Maps/Level1.Level1:PersistentLevel.Level1
+[2025.12.08-16.29.01:660][794]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2025.12.08-16.29.01:726][794]LogStreaming: Display: FlushAsyncLoading(507): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.08-16.29.09:292][559]LogSlate: Window 'Level1' being destroyed
+[2025.12.08-16.33.32:764][965]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UKismetSystemLibrary::PrintText' [Element not found.]
+[2025.12.08-16.33.40:183][809]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.08-16.33.40:266][809]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2025.12.08-16.33.40:275][809]LogSavePackage: Moving output files for package: /Game/MyStuff/Maps/Level1
+[2025.12.08-16.33.40:276][809]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Saved/Level1067444C4465B104315D719B19F903544.tmp' to '../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/MyStuff/Maps/Level1.umap'
+[2025.12.08-16.33.40:279][809]LogFileHelpers: Saving map 'Level1' took 0.054
+[2025.12.08-16.33.40:285][809]LogFileHelpers: InternalPromptForCheckoutAndSave took 102.247 ms (total: 217.683 ms)
+[2025.12.08-16.33.40:328][809]LogContentValidation: Display: Starting to validate 1 assets
+[2025.12.08-16.33.40:328][809]LogContentValidation: Enabled validators:
+[2025.12.08-16.33.40:328][809]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.08-16.33.40:328][809]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.08-16.33.40:328][809]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.08-16.33.40:328][809]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.08-16.33.40:328][809]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.08-16.33.40:328][809]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.08-16.33.40:328][809]AssetCheck: /Game/MyStuff/Maps/Level1 Validating asset
+[2025.12.08-16.33.40:720][853]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.12.08-16.33.42:619][ 76]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.08-16.33.42:623][ 76]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.08-16.33.42:627][ 76]LogOnline: OSS: Created online subsystem instance for: NULL
+[2025.12.08-16.33.42:627][ 76]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2025.12.08-16.33.42:627][ 76]LogPlayLevel: Creating play world package: /Game/MyStuff/Maps/UEDPIE_0_Level1
+[2025.12.08-16.33.42:630][ 76]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002110s)
+[2025.12.08-16.33.42:630][ 76]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyStuff/Maps/Level1.Level1 to /Game/MyStuff/Maps/UEDPIE_0_Level1.Level1 (0.002160s)
+[2025.12.08-16.33.42:648][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.12.08-16.33.42:649][ 76]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.12.08-16.33.42:651][ 76]LogPlayLevel: PIE: World Init took: (0.001710s)
+[2025.12.08-16.33.42:652][ 76]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2025.12.08-16.33.42:652][ 76]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.08-16.33.42:652][ 76]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.08-16.33.42:652][ 76]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.08-16.33.42:652][ 76]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.08-16.33.42:652][ 76]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.08-16.33.42:652][ 76]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.08-16.33.42:652][ 76]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.08-16.33.42:652][ 76]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.08-16.33.42:652][ 76]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.08-16.33.42:652][ 76]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.08-16.33.42:652][ 76]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.08-16.33.42:654][ 76]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.08-16.33.42:676][ 76]LogAudioMixer: Display: Using Audio Hardware Device EB321HQU (NVIDIA High Definition Audio)
+[2025.12.08-16.33.42:677][ 76]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.08-16.33.42:677][ 76]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.08-16.33.42:677][ 76]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.08-16.33.42:678][ 76]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2025.12.08-16.33.42:678][ 76]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2025.12.08-16.33.42:679][ 76]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2025.12.08-16.33.42:679][ 76]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2025.12.08-16.33.42:679][ 76]LogInit: FAudioDevice initialized with ID 2.
+[2025.12.08-16.33.42:679][ 76]LogAudio: Display: Audio Device (ID: 2) registered with world 'Level1'.
+[2025.12.08-16.33.42:679][ 76]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2025.12.08-16.33.42:683][ 76]LogLoad: Game class is 'GameModeBase'
+[2025.12.08-16.33.42:684][ 76]LogWorld: Bringing World /Game/MyStuff/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2025.12.08-11.33.42
+[2025.12.08-16.33.42:685][ 76]LogWorld: Bringing up level for play took: 0.000969
+[2025.12.08-16.33.42:686][ 76]LogOnline: OSS: Created online subsystem instance for: :Context_4
+[2025.12.08-16.33.42:692][ 76]PIE: Server logged in
+[2025.12.08-16.33.42:693][ 76]PIE: Play in editor total start time 0.071 seconds.
+[2025.12.08-16.33.42:736][ 77]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.08-16.33.43:615][179]LogBlueprintUserMessages: [Level1_C_0] Hello
+[2025.12.08-16.33.44:622][299]LogBlueprintUserMessages: [Level1_C_0] Unreal
+[2025.12.08-16.33.48:469][756]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.08-16.33.48:469][756]LogWorld: BeginTearingDown for /Game/MyStuff/Maps/UEDPIE_0_Level1
+[2025.12.08-16.33.48:469][756]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.12.08-16.33.48:469][756]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.08-16.33.48:470][756]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.08-16.33.48:474][756]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.08-16.33.48:490][756]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.08-16.33.48:490][756]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2025.12.08-16.33.48:491][756]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=4
+[2025.12.08-16.33.48:492][756]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=2
+[2025.12.08-16.33.48:498][756]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2025.12.08-16.33.48:537][759]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2025.12.08-16.34.29:745][216]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1353.321045
+[2025.12.08-16.34.30:746][220]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.08-16.34.30:746][220]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1353.987549, Update Interval: 336.999420
+[2025.12.08-16.40.38:117][786]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1721.691040
+[2025.12.08-16.40.38:184][794]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.08-16.40.38:184][794]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1721.749512, Update Interval: 357.454773
+[2025.12.08-16.43.33:910][708]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.08-16.43.33:979][708]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.12.08-16.43.33:988][708]LogSavePackage: Moving output files for package: /Game/MyStuff/Maps/Level1
+[2025.12.08-16.43.33:988][708]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Saved/Level1B3F43E5F4627928263345288C9D58282.tmp' to '../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/MyStuff/Maps/Level1.umap'
+[2025.12.08-16.43.33:991][708]LogFileHelpers: Saving map 'Level1' took 0.040
+[2025.12.08-16.43.33:998][708]LogFileHelpers: InternalPromptForCheckoutAndSave took 88.788 ms (total: 306.472 ms)
+[2025.12.08-16.43.34:053][708]LogContentValidation: Display: Starting to validate 1 assets
+[2025.12.08-16.43.34:053][708]LogContentValidation: Enabled validators:
+[2025.12.08-16.43.34:053][708]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.08-16.43.34:053][708]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.08-16.43.34:053][708]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.08-16.43.34:053][708]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.08-16.43.34:053][708]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.08-16.43.34:053][708]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.08-16.43.34:053][708]AssetCheck: /Game/MyStuff/Maps/Level1 Validating asset
+[2025.12.08-16.45.21:239][489]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.08-16.45.21:304][489]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.12.08-16.45.21:313][489]LogSavePackage: Moving output files for package: /Game/MyStuff/Maps/Level1
+[2025.12.08-16.45.21:313][489]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Saved/Level13E183FB84CF040DFFCA2DEA576A9B0B4.tmp' to '../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/MyStuff/Maps/Level1.umap'
+[2025.12.08-16.45.21:316][489]LogFileHelpers: Saving map 'Level1' took 0.034
+[2025.12.08-16.45.21:323][489]LogFileHelpers: InternalPromptForCheckoutAndSave took 83.317 ms (total: 389.789 ms)
+[2025.12.08-16.45.21:380][489]LogContentValidation: Display: Starting to validate 1 assets
+[2025.12.08-16.45.21:380][489]LogContentValidation: Enabled validators:
+[2025.12.08-16.45.21:380][489]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.08-16.45.21:380][489]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.08-16.45.21:380][489]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.08-16.45.21:380][489]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.08-16.45.21:380][489]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.08-16.45.21:380][489]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.08-16.45.21:380][489]AssetCheck: /Game/MyStuff/Maps/Level1 Validating asset
+[2025.12.08-16.45.23:289][714]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.08-16.45.23:293][714]LogPlayLevel: [PlayLevel] Compiling Level1 before play...
+[2025.12.08-16.45.23:328][714]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.12.08-16.45.23:329][714]LogPlayLevel: PlayLevel: Blueprint regeneration took 36 ms (1 blueprints)
+[2025.12.08-16.45.23:330][714]LogPlayLevel: Creating play world package: /Game/MyStuff/Maps/UEDPIE_0_Level1
+[2025.12.08-16.45.23:331][714]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001753s)
+[2025.12.08-16.45.23:331][714]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyStuff/Maps/Level1.Level1 to /Game/MyStuff/Maps/UEDPIE_0_Level1.Level1 (0.001788s)
+[2025.12.08-16.45.23:349][714]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.12.08-16.45.23:350][714]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.12.08-16.45.23:352][714]LogPlayLevel: PIE: World Init took: (0.001597s)
+[2025.12.08-16.45.23:352][714]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2025.12.08-16.45.23:352][714]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.08-16.45.23:352][714]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.08-16.45.23:352][714]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.08-16.45.23:352][714]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.08-16.45.23:352][714]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.08-16.45.23:353][714]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.08-16.45.23:353][714]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.08-16.45.23:353][714]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.08-16.45.23:353][714]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.08-16.45.23:353][714]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.08-16.45.23:353][714]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.08-16.45.23:354][714]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.08-16.45.23:375][714]LogAudioMixer: Display: Using Audio Hardware Device EB321HQU (NVIDIA High Definition Audio)
+[2025.12.08-16.45.23:375][714]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.08-16.45.23:375][714]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.08-16.45.23:375][714]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.08-16.45.23:376][714]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2025.12.08-16.45.23:376][714]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2025.12.08-16.45.23:377][714]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2025.12.08-16.45.23:377][714]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2025.12.08-16.45.23:377][714]LogInit: FAudioDevice initialized with ID 3.
+[2025.12.08-16.45.23:377][714]LogAudio: Display: Audio Device (ID: 3) registered with world 'Level1'.
+[2025.12.08-16.45.23:377][714]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2025.12.08-16.45.23:381][714]LogLoad: Game class is 'GameModeBase'
+[2025.12.08-16.45.23:382][714]LogWorld: Bringing World /Game/MyStuff/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2025.12.08-11.45.23
+[2025.12.08-16.45.23:382][714]LogWorld: Bringing up level for play took: 0.000706
+[2025.12.08-16.45.23:383][714]LogOnline: OSS: Created online subsystem instance for: :Context_5
+[2025.12.08-16.45.23:386][714]PIE: Server logged in
+[2025.12.08-16.45.23:387][714]PIE: Play in editor total start time 0.094 seconds.
+[2025.12.08-16.45.23:423][715]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.08-16.45.36:096][227]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.08-16.45.36:096][227]LogWorld: BeginTearingDown for /Game/MyStuff/Maps/UEDPIE_0_Level1
+[2025.12.08-16.45.36:096][227]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.12.08-16.45.36:097][227]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.08-16.45.36:098][227]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.08-16.45.36:102][227]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.08-16.45.36:119][227]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.12.08-16.45.36:119][227]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2025.12.08-16.45.36:119][227]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=4
+[2025.12.08-16.45.36:121][227]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=2
+[2025.12.08-16.45.36:125][227]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.08-16.45.36:127][227]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.12.08-16.45.36:175][228]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2025.12.08-16.45.43:575][ 21]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.08-16.45.43:578][ 21]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.08-16.45.43:605][ 21]LogPlayLevel: Creating play world package: /Game/MyStuff/Maps/UEDPIE_0_Level1
+[2025.12.08-16.45.43:607][ 21]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001722s)
+[2025.12.08-16.45.43:607][ 21]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyStuff/Maps/Level1.Level1 to /Game/MyStuff/Maps/UEDPIE_0_Level1.Level1 (0.001759s)
+[2025.12.08-16.45.43:624][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.12.08-16.45.43:625][ 21]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.12.08-16.45.43:626][ 21]LogPlayLevel: PIE: World Init took: (0.001429s)
+[2025.12.08-16.45.43:627][ 21]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2025.12.08-16.45.43:627][ 21]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.08-16.45.43:627][ 21]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.08-16.45.43:627][ 21]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.08-16.45.43:627][ 21]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.08-16.45.43:627][ 21]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.08-16.45.43:627][ 21]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.08-16.45.43:627][ 21]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.08-16.45.43:627][ 21]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.08-16.45.43:627][ 21]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.08-16.45.43:627][ 21]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.08-16.45.43:627][ 21]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.08-16.45.43:628][ 21]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.08-16.45.43:647][ 21]LogAudioMixer: Display: Using Audio Hardware Device EB321HQU (NVIDIA High Definition Audio)
+[2025.12.08-16.45.43:648][ 21]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.08-16.45.43:648][ 21]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.08-16.45.43:648][ 21]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.08-16.45.43:648][ 21]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2025.12.08-16.45.43:648][ 21]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2025.12.08-16.45.43:649][ 21]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2025.12.08-16.45.43:649][ 21]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2025.12.08-16.45.43:649][ 21]LogInit: FAudioDevice initialized with ID 4.
+[2025.12.08-16.45.43:649][ 21]LogAudio: Display: Audio Device (ID: 4) registered with world 'Level1'.
+[2025.12.08-16.45.43:650][ 21]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2025.12.08-16.45.43:653][ 21]LogLoad: Game class is 'GameModeBase'
+[2025.12.08-16.45.43:653][ 21]LogWorld: Bringing World /Game/MyStuff/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2025.12.08-11.45.43
+[2025.12.08-16.45.43:653][ 21]LogWorld: Bringing up level for play took: 0.000598
+[2025.12.08-16.45.43:655][ 21]LogOnline: OSS: Created online subsystem instance for: :Context_6
+[2025.12.08-16.45.43:657][ 21]PIE: Server logged in
+[2025.12.08-16.45.43:658][ 21]PIE: Play in editor total start time 0.079 seconds.
+[2025.12.08-16.45.43:690][ 22]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.08-16.45.50:966][886]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.08-16.45.50:966][886]LogWorld: BeginTearingDown for /Game/MyStuff/Maps/UEDPIE_0_Level1
+[2025.12.08-16.45.50:966][886]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.12.08-16.45.50:966][886]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.08-16.45.50:968][886]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.08-16.45.50:972][886]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.08-16.45.50:988][886]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.08-16.45.50:988][886]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2025.12.08-16.45.50:988][886]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=4
+[2025.12.08-16.45.50:990][886]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=2
+[2025.12.08-16.45.50:995][886]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2025.12.08-16.45.51:043][887]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2025.12.08-16.47.28:647][421]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2132.229248
+[2025.12.08-16.47.28:714][429]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.08-16.47.28:714][430]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2132.287354, Update Interval: 341.710876
+[2025.12.08-16.47.30:509][643]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'AActor::K2_AddActorWorldRotation' [The specified module could not be found.]
+[2025.12.08-16.48.55:833][708]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.08-16.48.55:906][708]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2025.12.08-16.48.55:916][708]LogSavePackage: Moving output files for package: /Game/MyStuff/Maps/Level1
+[2025.12.08-16.48.55:916][708]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Saved/Level1803E671847ACB05F3B6F6FB647DC70E1.tmp' to '../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/MyStuff/Maps/Level1.umap'
+[2025.12.08-16.48.55:919][708]LogFileHelpers: Saving map 'Level1' took 0.045
+[2025.12.08-16.48.55:926][708]LogFileHelpers: InternalPromptForCheckoutAndSave took 92.587 ms (total: 482.376 ms)
+[2025.12.08-16.48.55:983][708]LogContentValidation: Display: Starting to validate 1 assets
+[2025.12.08-16.48.55:983][708]LogContentValidation: Enabled validators:
+[2025.12.08-16.48.55:983][708]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.08-16.48.55:983][708]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.08-16.48.55:983][708]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.08-16.48.55:984][708]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.08-16.48.55:984][708]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.08-16.48.55:984][708]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.08-16.48.55:984][708]AssetCheck: /Game/MyStuff/Maps/Level1 Validating asset
+[2025.12.08-16.48.56:318][743]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.12.08-16.48.58:754][ 29]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.08-16.48.58:758][ 29]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.08-16.48.58:781][ 29]LogPlayLevel: Creating play world package: /Game/MyStuff/Maps/UEDPIE_0_Level1
+[2025.12.08-16.48.58:783][ 29]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001777s)
+[2025.12.08-16.48.58:783][ 29]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyStuff/Maps/Level1.Level1 to /Game/MyStuff/Maps/UEDPIE_0_Level1.Level1 (0.001817s)
+[2025.12.08-16.48.58:799][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.12.08-16.48.58:802][ 29]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.12.08-16.48.58:803][ 29]LogPlayLevel: PIE: World Init took: (0.001357s)
+[2025.12.08-16.48.58:804][ 29]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2025.12.08-16.48.58:804][ 29]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.08-16.48.58:804][ 29]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.08-16.48.58:804][ 29]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.08-16.48.58:804][ 29]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.08-16.48.58:804][ 29]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.08-16.48.58:804][ 29]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.08-16.48.58:804][ 29]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.08-16.48.58:804][ 29]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.08-16.48.58:804][ 29]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.08-16.48.58:804][ 29]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.08-16.48.58:804][ 29]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.08-16.48.58:805][ 29]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.08-16.48.58:825][ 29]LogAudioMixer: Display: Using Audio Hardware Device EB321HQU (NVIDIA High Definition Audio)
+[2025.12.08-16.48.58:825][ 29]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.08-16.48.58:825][ 29]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.08-16.48.58:825][ 29]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.08-16.48.58:826][ 29]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2025.12.08-16.48.58:826][ 29]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2025.12.08-16.48.58:827][ 29]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2025.12.08-16.48.58:827][ 29]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2025.12.08-16.48.58:827][ 29]LogInit: FAudioDevice initialized with ID 5.
+[2025.12.08-16.48.58:827][ 29]LogAudio: Display: Audio Device (ID: 5) registered with world 'Level1'.
+[2025.12.08-16.48.58:827][ 29]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2025.12.08-16.48.58:831][ 29]LogLoad: Game class is 'GameModeBase'
+[2025.12.08-16.48.58:831][ 29]LogWorld: Bringing World /Game/MyStuff/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2025.12.08-11.48.58
+[2025.12.08-16.48.58:831][ 29]LogWorld: Bringing up level for play took: 0.000589
+[2025.12.08-16.48.58:833][ 29]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2025.12.08-16.48.58:834][ 29]PIE: Server logged in
+[2025.12.08-16.48.58:836][ 29]PIE: Play in editor total start time 0.077 seconds.
+[2025.12.08-16.48.58:867][ 30]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.08-16.49.06:502][938]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.08-16.49.06:502][938]LogWorld: BeginTearingDown for /Game/MyStuff/Maps/UEDPIE_0_Level1
+[2025.12.08-16.49.06:502][938]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.12.08-16.49.06:503][938]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.08-16.49.06:504][938]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.08-16.49.06:508][938]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.08-16.49.06:524][938]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.08-16.49.06:525][938]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2025.12.08-16.49.06:525][938]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=4
+[2025.12.08-16.49.06:526][938]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=2
+[2025.12.08-16.49.06:532][938]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2025.12.08-16.49.06:580][939]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2025.12.08-16.49.52:013][334]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.08-16.49.52:093][334]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.12.08-16.49.52:102][334]LogSavePackage: Moving output files for package: /Game/MyStuff/Maps/Level1
+[2025.12.08-16.49.52:102][334]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Saved/Level16AABCFB340330621A1D0E1B19CD6A894.tmp' to '../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/MyStuff/Maps/Level1.umap'
+[2025.12.08-16.49.52:105][334]LogFileHelpers: Saving map 'Level1' took 0.041
+[2025.12.08-16.49.52:113][334]LogFileHelpers: InternalPromptForCheckoutAndSave took 99.034 ms (total: 581.411 ms)
+[2025.12.08-16.49.52:157][334]LogContentValidation: Display: Starting to validate 1 assets
+[2025.12.08-16.49.52:157][334]LogContentValidation: Enabled validators:
+[2025.12.08-16.49.52:157][334]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.08-16.49.52:157][334]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.08-16.49.52:157][334]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.08-16.49.52:157][334]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.08-16.49.52:157][334]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.08-16.49.52:157][334]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.08-16.49.52:157][334]AssetCheck: /Game/MyStuff/Maps/Level1 Validating asset
+[2025.12.08-16.49.52:751][400]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.12.08-16.49.54:521][607]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.08-16.49.54:524][607]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.08-16.49.54:561][607]LogPlayLevel: Creating play world package: /Game/MyStuff/Maps/UEDPIE_0_Level1
+[2025.12.08-16.49.54:562][607]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001775s)
+[2025.12.08-16.49.54:562][607]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyStuff/Maps/Level1.Level1 to /Game/MyStuff/Maps/UEDPIE_0_Level1.Level1 (0.001812s)
+[2025.12.08-16.49.54:580][607]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.12.08-16.49.54:581][607]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.12.08-16.49.54:583][607]LogPlayLevel: PIE: World Init took: (0.001412s)
+[2025.12.08-16.49.54:583][607]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2025.12.08-16.49.54:583][607]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.08-16.49.54:583][607]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.08-16.49.54:583][607]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.08-16.49.54:583][607]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.08-16.49.54:583][607]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.08-16.49.54:583][607]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.08-16.49.54:583][607]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.08-16.49.54:583][607]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.08-16.49.54:583][607]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.08-16.49.54:583][607]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.08-16.49.54:583][607]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.08-16.49.54:585][607]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.08-16.49.54:604][607]LogAudioMixer: Display: Using Audio Hardware Device EB321HQU (NVIDIA High Definition Audio)
+[2025.12.08-16.49.54:604][607]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.08-16.49.54:604][607]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.08-16.49.54:604][607]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.08-16.49.54:604][607]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2025.12.08-16.49.54:604][607]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2025.12.08-16.49.54:606][607]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2025.12.08-16.49.54:606][607]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2025.12.08-16.49.54:606][607]LogInit: FAudioDevice initialized with ID 6.
+[2025.12.08-16.49.54:606][607]LogAudio: Display: Audio Device (ID: 6) registered with world 'Level1'.
+[2025.12.08-16.49.54:606][607]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2025.12.08-16.49.54:608][607]LogLoad: Game class is 'GameModeBase'
+[2025.12.08-16.49.54:610][607]LogWorld: Bringing World /Game/MyStuff/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2025.12.08-11.49.54
+[2025.12.08-16.49.54:610][607]LogWorld: Bringing up level for play took: 0.000588
+[2025.12.08-16.49.54:612][607]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2025.12.08-16.49.54:613][607]PIE: Server logged in
+[2025.12.08-16.49.54:615][607]PIE: Play in editor total start time 0.09 seconds.
+[2025.12.08-16.49.54:646][608]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.08-16.50.09:240][352]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.08-16.50.09:240][352]LogWorld: BeginTearingDown for /Game/MyStuff/Maps/UEDPIE_0_Level1
+[2025.12.08-16.50.09:240][352]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.12.08-16.50.09:241][352]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.08-16.50.09:242][352]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.08-16.50.09:246][352]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.08-16.50.09:262][352]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.08-16.50.09:262][352]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2025.12.08-16.50.09:262][352]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6, StreamState=4
+[2025.12.08-16.50.09:264][352]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6, StreamState=2
+[2025.12.08-16.50.09:270][352]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.12.08-16.50.09:369][354]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2025.12.08-16.51.50:870][367]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.08-16.51.50:938][367]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.12.08-16.51.50:948][367]LogSavePackage: Moving output files for package: /Game/MyStuff/Maps/Level1
+[2025.12.08-16.51.50:948][367]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Saved/Level11634810E4F4B4C190047E890C2AB7D5B.tmp' to '../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/MyStuff/Maps/Level1.umap'
+[2025.12.08-16.51.50:951][367]LogFileHelpers: Saving map 'Level1' took 0.041
+[2025.12.08-16.51.50:959][367]LogFileHelpers: InternalPromptForCheckoutAndSave took 89.181 ms (total: 670.593 ms)
+[2025.12.08-16.51.51:005][367]LogContentValidation: Display: Starting to validate 1 assets
+[2025.12.08-16.51.51:005][367]LogContentValidation: Enabled validators:
+[2025.12.08-16.51.51:005][367]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.08-16.51.51:005][367]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.08-16.51.51:005][367]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.08-16.51.51:005][367]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.08-16.51.51:005][367]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.08-16.51.51:005][367]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.08-16.51.51:005][367]AssetCheck: /Game/MyStuff/Maps/Level1 Validating asset
+[2025.12.08-16.51.51:278][395]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.12.08-16.51.52:819][572]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.08-16.51.52:823][572]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.08-16.51.52:859][572]LogPlayLevel: Creating play world package: /Game/MyStuff/Maps/UEDPIE_0_Level1
+[2025.12.08-16.51.52:861][572]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001988s)
+[2025.12.08-16.51.52:861][572]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyStuff/Maps/Level1.Level1 to /Game/MyStuff/Maps/UEDPIE_0_Level1.Level1 (0.002033s)
+[2025.12.08-16.51.52:878][572]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.12.08-16.51.52:879][572]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.12.08-16.51.52:881][572]LogPlayLevel: PIE: World Init took: (0.001519s)
+[2025.12.08-16.51.52:881][572]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2025.12.08-16.51.52:881][572]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.08-16.51.52:881][572]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.08-16.51.52:881][572]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.08-16.51.52:881][572]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.08-16.51.52:881][572]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.08-16.51.52:881][572]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.08-16.51.52:881][572]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.08-16.51.52:881][572]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.08-16.51.52:881][572]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.08-16.51.52:881][572]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.08-16.51.52:881][572]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.08-16.51.52:884][572]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.08-16.51.52:902][572]LogAudioMixer: Display: Using Audio Hardware Device EB321HQU (NVIDIA High Definition Audio)
+[2025.12.08-16.51.52:903][572]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.08-16.51.52:903][572]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.08-16.51.52:903][572]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.08-16.51.52:903][572]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2025.12.08-16.51.52:903][572]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2025.12.08-16.51.52:905][572]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2025.12.08-16.51.52:905][572]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2025.12.08-16.51.52:905][572]LogInit: FAudioDevice initialized with ID 7.
+[2025.12.08-16.51.52:905][572]LogAudio: Display: Audio Device (ID: 7) registered with world 'Level1'.
+[2025.12.08-16.51.52:905][572]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2025.12.08-16.51.52:908][572]LogLoad: Game class is 'GameModeBase'
+[2025.12.08-16.51.52:909][572]LogWorld: Bringing World /Game/MyStuff/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2025.12.08-11.51.52
+[2025.12.08-16.51.52:909][572]LogWorld: Bringing up level for play took: 0.000689
+[2025.12.08-16.51.52:911][572]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2025.12.08-16.51.52:912][572]PIE: Server logged in
+[2025.12.08-16.51.52:914][572]PIE: Play in editor total start time 0.091 seconds.
+[2025.12.08-16.51.52:947][573]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.08-16.52.06:299][167]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.08-16.52.06:299][167]LogWorld: BeginTearingDown for /Game/MyStuff/Maps/UEDPIE_0_Level1
+[2025.12.08-16.52.06:299][167]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.12.08-16.52.06:299][167]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.08-16.52.06:301][167]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.08-16.52.06:304][167]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.08-16.52.06:319][167]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.08-16.52.06:320][167]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2025.12.08-16.52.06:320][167]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=4
+[2025.12.08-16.52.06:321][167]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=2
+[2025.12.08-16.52.06:326][167]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.12.08-16.52.06:428][169]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2025.12.08-16.52.21:677][977]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.08-16.52.21:744][977]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.12.08-16.52.21:754][977]LogSavePackage: Moving output files for package: /Game/MyStuff/Maps/Level1
+[2025.12.08-16.52.21:754][977]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Saved/Level157BAF3634EE6597B646BB980A9FAB2F5.tmp' to '../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/MyStuff/Maps/Level1.umap'
+[2025.12.08-16.52.21:757][977]LogFileHelpers: Saving map 'Level1' took 0.036
+[2025.12.08-16.52.21:763][977]LogFileHelpers: InternalPromptForCheckoutAndSave took 86.105 ms (total: 756.699 ms)
+[2025.12.08-16.52.21:803][977]LogContentValidation: Display: Starting to validate 1 assets
+[2025.12.08-16.52.21:803][977]LogContentValidation: Enabled validators:
+[2025.12.08-16.52.21:803][977]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.08-16.52.21:803][977]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.08-16.52.21:803][977]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.08-16.52.21:803][977]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.08-16.52.21:803][977]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.08-16.52.21:803][977]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.08-16.52.21:803][977]AssetCheck: /Game/MyStuff/Maps/Level1 Validating asset
+[2025.12.08-16.52.23:926][226]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.12.08-16.52.24:990][350]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.08-16.52.24:993][350]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.08-16.52.25:028][350]LogPlayLevel: Creating play world package: /Game/MyStuff/Maps/UEDPIE_0_Level1
+[2025.12.08-16.52.25:030][350]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002039s)
+[2025.12.08-16.52.25:030][350]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyStuff/Maps/Level1.Level1 to /Game/MyStuff/Maps/UEDPIE_0_Level1.Level1 (0.002079s)
+[2025.12.08-16.52.25:048][350]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.12.08-16.52.25:049][350]LogChaosDD: Creating Chaos Debug Draw Scene for world Level1
+[2025.12.08-16.52.25:051][350]LogPlayLevel: PIE: World Init took: (0.001606s)
+[2025.12.08-16.52.25:051][350]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2025.12.08-16.52.25:051][350]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.08-16.52.25:051][350]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.08-16.52.25:052][350]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.08-16.52.25:052][350]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.08-16.52.25:052][350]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.08-16.52.25:052][350]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.08-16.52.25:052][350]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.08-16.52.25:052][350]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.08-16.52.25:052][350]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.08-16.52.25:052][350]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.08-16.52.25:052][350]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.08-16.52.25:053][350]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.08-16.52.25:073][350]LogAudioMixer: Display: Using Audio Hardware Device EB321HQU (NVIDIA High Definition Audio)
+[2025.12.08-16.52.25:073][350]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.08-16.52.25:073][350]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.08-16.52.25:073][350]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.08-16.52.25:073][350]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2025.12.08-16.52.25:073][350]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2025.12.08-16.52.25:075][350]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2025.12.08-16.52.25:075][350]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2025.12.08-16.52.25:075][350]LogInit: FAudioDevice initialized with ID 8.
+[2025.12.08-16.52.25:075][350]LogAudio: Display: Audio Device (ID: 8) registered with world 'Level1'.
+[2025.12.08-16.52.25:075][350]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2025.12.08-16.52.25:078][350]LogLoad: Game class is 'GameModeBase'
+[2025.12.08-16.52.25:078][350]LogWorld: Bringing World /Game/MyStuff/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2025.12.08-11.52.25
+[2025.12.08-16.52.25:079][350]LogWorld: Bringing up level for play took: 0.000590
+[2025.12.08-16.52.25:080][350]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2025.12.08-16.52.25:081][350]PIE: Server logged in
+[2025.12.08-16.52.25:083][350]PIE: Play in editor total start time 0.091 seconds.
+[2025.12.08-16.52.25:114][351]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.08-16.52.42:588][440]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.08-16.52.42:588][440]LogWorld: BeginTearingDown for /Game/MyStuff/Maps/UEDPIE_0_Level1
+[2025.12.08-16.52.42:588][440]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2025.12.08-16.52.42:588][440]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.08-16.52.42:590][440]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.08-16.52.42:594][440]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.08-16.52.42:612][440]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.08-16.52.42:612][440]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2025.12.08-16.52.42:612][440]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=4
+[2025.12.08-16.52.42:613][440]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=2
+[2025.12.08-16.52.42:618][440]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2025.12.08-16.52.42:666][441]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2025.12.08-16.54.07:262][564]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2530.827637
+[2025.12.08-16.54.07:337][573]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.08-16.54.07:337][573]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2530.894531, Update Interval: 348.696564
+[2025.12.08-16.54.09:300][804]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2025.12.08-16.54.17:869][790]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.12.08-16.54.20:240][ 72]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.08-16.54.20:318][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.12.08-16.54.20:326][ 72]LogSavePackage: Moving output files for package: /Game/MyStuff/Maps/Level1
+[2025.12.08-16.54.20:326][ 72]LogSavePackage: Moving '../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Saved/Level1D89DA3DF408D6895A5180FB0AC699DF2.tmp' to '../../../../../../Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/MyStuff/Maps/Level1.umap'
+[2025.12.08-16.54.20:330][ 72]LogFileHelpers: Saving map 'Level1' took 0.037
+[2025.12.08-16.54.20:337][ 72]LogFileHelpers: InternalPromptForCheckoutAndSave took 97.402 ms (total: 854.101 ms)
+[2025.12.08-16.54.20:385][ 72]LogContentValidation: Display: Starting to validate 1 assets
+[2025.12.08-16.54.20:385][ 72]LogContentValidation: Enabled validators:
+[2025.12.08-16.54.20:385][ 72]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.08-16.54.20:385][ 72]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.08-16.54.20:385][ 72]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.08-16.54.20:385][ 72]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.08-16.54.20:385][ 72]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.08-16.54.20:385][ 72]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.08-16.54.20:385][ 72]AssetCheck: /Game/MyStuff/Maps/Level1 Validating asset
