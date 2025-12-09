@@ -7,20 +7,13 @@
 			"files": [
 				"C:/Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Architecture/Floor_400x400.uasset",
 				"C:/Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/MyStuff/Maps/Level1.umap",
-				"C:/Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/MyStuff/Maps/_GENERATED/antho/Floor.uasset",
-				"C:/Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/MyStuff/Floor.uasset",
 				"C:/Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/MyStuff/Models/Floor.uasset",
-				"C:/Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/MyStuff/Maps/_GENERATED/antho/Floor_2.uasset",
 				"C:/Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/MyStuff/Maps/_GENERATED/antho/Boolean_D4EE333D.uasset",
-				"C:/Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/MyStuff/Floor_2.uasset",
 				"C:/Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/MyStuff/Models/Floor_2.uasset",
-				"C:/Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/MyStuff/Merge_6F75695E.uasset",
 				"C:/Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/MyStuff/Maps/_GENERATED/antho/Merge_6F75695E.uasset",
-				"C:/Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/MyStuff/Peg.uasset",
 				"C:/Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/MyStuff/Models/Peg.uasset",
 				"C:/Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/MyStuff/BP_Peg.uasset",
 				"C:/Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/MyStuff/LaserWall_Red.uasset",
-				"C:/Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/MyStuff/Green_Glwow.uasset",
 				"C:/Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/MyStuff/Green_Glow.uasset",
 				"C:/Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/MyStuff/Maps/_GENERATED/antho/Box_021CD665.uasset",
 				"C:/Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/MyStuff/Maps/_GENERATED/antho/Box_11540DC6.uasset",
@@ -28,7 +21,15 @@
 				"C:/Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/MyStuff/Maps/_GENERATED/antho/Box_8AF1341A.uasset",
 				"C:/Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/MyStuff/Maps/_GENERATED/antho/Cylinder_59428DF7.uasset",
 				"C:/Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/MyStuff/Maps/_GENERATED/antho/Merge_384D3E58.uasset",
-				"C:/Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/MyStuff/Maps/_GENERATED/antho/Sphere_52DB2E70.uasset"
+				"C:/Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/MyStuff/Maps/_GENERATED/antho/Sphere_52DB2E70.uasset",
+				"C:/Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/StarterContent/Shapes/Shape_Sphere.uasset",
+				"C:/Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/MyStuff/Maps/_GENERATED/antho/Floor.uasset",
+				"C:/Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/MyStuff/Floor.uasset",
+				"C:/Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/MyStuff/Maps/_GENERATED/antho/Floor_2.uasset",
+				"C:/Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/MyStuff/Floor_2.uasset",
+				"C:/Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/MyStuff/Merge_6F75695E.uasset",
+				"C:/Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/MyStuff/Peg.uasset",
+				"C:/Users/antho/Desktop/GitHub/Ball-Maze/BallMaze/Content/MyStuff/Green_Glwow.uasset"
 			]
 		}
 	]
